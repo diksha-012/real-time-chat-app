@@ -10,7 +10,7 @@ app.use(cors()); // Enable CORS
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Your React frontend
+    origin: "https://real-time-chat-app-weld.vercel.app/", // Your React frontend
     methods: ["GET", "POST"]
   }
 });
